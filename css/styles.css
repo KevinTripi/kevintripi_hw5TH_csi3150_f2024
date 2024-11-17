@@ -1,0 +1,84 @@
+
+  body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    --primary-color: #284b69; 
+    --secondary-color: #8c9a9b; 
+    --primary-text-color: #f7f7f7; 
+    --secondary-text-color: #000000; 
+    --card-bg-color: #86b3dd; 
+
+    
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+h2 {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-text-color);
+    max-width: 15%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/*fliter secxtion*/
+
+
+  .filters {
+    padding: 1rem;
+
+    background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .filters h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+
+  .filters label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  .filters button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    border: none;
+    cursor: pointer;
+  }
+  .filters button:hover {
+    background-color: var(--card-bg-color);
+    color: var(--border-color);
+  }
+  
+
+
+
+  .car-list {
+    padding: 1rem;
+  }
+  
+  .car-card {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--card-bg-color);
+  }
+  
+  .car-card h3 {
+    margin: 0;
+  }
+  

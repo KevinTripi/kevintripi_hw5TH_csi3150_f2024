@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Used Car Sales</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./assets/car.jpg" type="image/x-icon">
+</head>
+<body>
+  <header>
+        <h1>Used Car Dealership</h1>
+  </header>
+  <section class="filters">
+        <h2>Filter Options</h2>
+            <label>Min Year: <input type="number" id="minYear" /></label>
+            <label>Max Year: <input type="number" id="maxYear" /></label>
+            <label>Make: <select id="carMake" multiple></select></label>
+            <label>Max Mileage: <input type="number" id="maxMileage" /></label>
+            <label>Min Price: <input type="number" id="minPrice" /></label>
+            <label>Max Price: <input type="number" id="maxPrice" /></label>
+            <label>Color: <select id="carColor" multiple></select></label>
+        <button id="applyFilters">Apply Filters</button>
+  </section>
+  <section class="car-list">
+        <h2>Available Cars </h2>
+        <div id="carsContainer"></div>
+  </section>
+        <script src="./js/usedCars.js"></script>
+        <script src="./js/script.js"></script>
+</body>
+</html>
